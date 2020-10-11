@@ -12,8 +12,6 @@ def refresh(x0, x1):
     plt.plot(x, y1, label="sin line")
     plt.plot(x, y2, label='cosin line')
     plt.ylim((min_y, max_y))
-    y3 = np.tan(x)
-    plt.plot(x, y3, label="tan line")
     plt.legend()
     plt.show()
 
